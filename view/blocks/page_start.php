@@ -14,7 +14,7 @@
 			<a href="index.php">Home</a>
 			<a href="products.php">Products</a>
 			<a href="categories.php">Categories</a>
-			<a id="login-status" href="#">Log In</a>
+			<a href="logout.php">Log Out</a>
 		</nav>
 		<div class="content-container">
 			<div class="content">
