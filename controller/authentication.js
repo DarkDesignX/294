@@ -17,6 +17,23 @@ function authenticate(event) {
 	});
 }
 
+loginStatus.updateButtonText = function (newText) {
+	this.innerText = newText;
+}
+loginStatus.addEventListener('click', function (e) {
+	if (this.innerText === 'Log In') {
+		e.preventDefault();
+		loginOverlay.show();
+	}
+})
+
+loginOverlay.show = function () {
+	this.classList.add('visible');
+}
+loginOverlay.hide = function () {
+	this.classList.remove('visible');
+}
+
 function onLoginSuccess(request) {
 	loginOverlay.classList.remove("visible");
 }
