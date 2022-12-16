@@ -1,4 +1,5 @@
 var loginOverlay = document.getElementById("login-overlay");
+var loginStatus = document.querySelector("#login-status");
 
 var usernameField = document.getElementById("username-field");
 var passwordField = document.getElementById("password-field");
